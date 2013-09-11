@@ -1,0 +1,20 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#ifdef __OBJC__
+  #import <UIKit/UIKit.h>
+  #import <Foundation/Foundation.h>
+#endif
+
+#define RR_ALERT_BOT_BUTTON_INDEX 0
+#define RR_ALERT_MID_BUTTON_INDEX 2
+#define RR_ALERT_TOP_BUTTON_INDEX 1
+
+#define kRRLastLaunchKey @"RatingReminderLastLaunchKey"
+#define kRRLastSnoozeKey @"RatingReminderLastSnoozeKey"
+#define kRRLaunchCountKey @"RatingReminderLaunchCountKey"
+#define kRRLastVersionSeenKey @"RatingReminderLastVersionSeenKey"
+#define kRRLastVersionActionedKey @"RatingReminderLastVersionActionedKey"

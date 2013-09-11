@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		0496DADB17E1046300D4204B /* UniversalLib */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 0496DADC17E1046300D4204B /* Build configuration list for PBXAggregateTarget "UniversalLib" */;
+			buildPhases = (
+				0496DADF17E104E800D4204B /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = UniversalLib;
+			productName = UniversalLib;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0496DAB317E0FE6600D4204B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0496DAB217E0FE6600D4204B /* Foundation.framework */; };
+		0496DAB817E0FE6600D4204B /* RatingReminder.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0496DAB717E0FE6600D4204B /* RatingReminder.h */; };
+		0496DABA17E0FE6600D4204B /* RatingReminder.m in Sources */ = {isa = PBXBuildFile; fileRef = 0496DAB917E0FE6600D4204B /* RatingReminder.m */; };
+		0496DAC117E0FE6600D4204B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0496DAC017E0FE6600D4204B /* XCTest.framework */; };
+		0496DAC217E0FE6600D4204B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0496DAB217E0FE6600D4204B /* Foundation.framework */; };
+		0496DAC417E0FE6600D4204B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0496DAC317E0FE6600D4204B /* UIKit.framework */; };
+		0496DAC717E0FE6600D4204B /* libRatingReminder.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0496DAAF17E0FE6600D4204B /* libRatingReminder.a */; };
+		0496DACD17E0FE6600D4204B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0496DACB17E0FE6600D4204B /* InfoPlist.strings */; };
+		0496DACF17E0FE6600D4204B /* RatingReminderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0496DACE17E0FE6600D4204B /* RatingReminderTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0496DAC517E0FE6600D4204B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0496DAA717E0FE6600D4204B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0496DAAE17E0FE6600D4204B;
+			remoteInfo = RatingReminder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0496DAAD17E0FE6600D4204B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				0496DAB817E0FE6600D4204B /* RatingReminder.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0496DAAF17E0FE6600D4204B /* libRatingReminder.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRatingReminder.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0496DAB217E0FE6600D4204B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0496DAB617E0FE6600D4204B /* RatingReminder-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RatingReminder-Prefix.pch"; sourceTree = "<group>"; };
+		0496DAB717E0FE6600D4204B /* RatingReminder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RatingReminder.h; sourceTree = "<group>"; };
+		0496DAB917E0FE6600D4204B /* RatingReminder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RatingReminder.m; sourceTree = "<group>"; };
+		0496DABF17E0FE6600D4204B /* RatingReminderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RatingReminderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0496DAC017E0FE6600D4204B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		0496DAC317E0FE6600D4204B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		0496DACA17E0FE6600D4204B /* RatingReminderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RatingReminderTests-Info.plist"; sourceTree = "<group>"; };
+		0496DACC17E0FE6600D4204B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0496DACE17E0FE6600D4204B /* RatingReminderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RatingReminderTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0496DAAC17E0FE6600D4204B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0496DAB317E0FE6600D4204B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0496DABC17E0FE6600D4204B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0496DAC717E0FE6600D4204B /* libRatingReminder.a in Frameworks */,
+				0496DAC117E0FE6600D4204B /* XCTest.framework in Frameworks */,
+				0496DAC417E0FE6600D4204B /* UIKit.framework in Frameworks */,
+				0496DAC217E0FE6600D4204B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0496DAA617E0FE6600D4204B = {
+			isa = PBXGroup;
+			children = (
+				0496DAB417E0FE6600D4204B /* RatingReminder */,
+				0496DAC817E0FE6600D4204B /* RatingReminderTests */,
+				0496DAB117E0FE6600D4204B /* Frameworks */,
+				0496DAB017E0FE6600D4204B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0496DAB017E0FE6600D4204B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0496DAAF17E0FE6600D4204B /* libRatingReminder.a */,
+				0496DABF17E0FE6600D4204B /* RatingReminderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0496DAB117E0FE6600D4204B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0496DAB217E0FE6600D4204B /* Foundation.framework */,
+				0496DAC017E0FE6600D4204B /* XCTest.framework */,
+				0496DAC317E0FE6600D4204B /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0496DAB417E0FE6600D4204B /* RatingReminder */ = {
+			isa = PBXGroup;
+			children = (
+				0496DAB717E0FE6600D4204B /* RatingReminder.h */,
+				0496DAB917E0FE6600D4204B /* RatingReminder.m */,
+				0496DAB517E0FE6600D4204B /* Supporting Files */,
+			);
+			path = RatingReminder;
+			sourceTree = "<group>";
+		};
+		0496DAB517E0FE6600D4204B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0496DAB617E0FE6600D4204B /* RatingReminder-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0496DAC817E0FE6600D4204B /* RatingReminderTests */ = {
+			isa = PBXGroup;
+			children = (
+				0496DACE17E0FE6600D4204B /* RatingReminderTests.m */,
+				0496DAC917E0FE6600D4204B /* Supporting Files */,
+			);
+			path = RatingReminderTests;
+			sourceTree = "<group>";
+		};
+		0496DAC917E0FE6600D4204B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0496DACA17E0FE6600D4204B /* RatingReminderTests-Info.plist */,
+				0496DACB17E0FE6600D4204B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0496DAAE17E0FE6600D4204B /* RatingReminder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0496DAD217E0FE6600D4204B /* Build configuration list for PBXNativeTarget "RatingReminder" */;
+			buildPhases = (
+				0496DAAB17E0FE6600D4204B /* Sources */,
+				0496DAAC17E0FE6600D4204B /* Frameworks */,
+				0496DAAD17E0FE6600D4204B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RatingReminder;
+			productName = RatingReminder;
+			productReference = 0496DAAF17E0FE6600D4204B /* libRatingReminder.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		0496DABE17E0FE6600D4204B /* RatingReminderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0496DAD517E0FE6600D4204B /* Build configuration list for PBXNativeTarget "RatingReminderTests" */;
+			buildPhases = (
+				0496DABB17E0FE6600D4204B /* Sources */,
+				0496DABC17E0FE6600D4204B /* Frameworks */,
+				0496DABD17E0FE6600D4204B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0496DAC617E0FE6600D4204B /* PBXTargetDependency */,
+			);
+			name = RatingReminderTests;
+			productName = RatingReminderTests;
+			productReference = 0496DABF17E0FE6600D4204B /* RatingReminderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0496DAA717E0FE6600D4204B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Taber Buhl";
+			};
+			buildConfigurationList = 0496DAAA17E0FE6600D4204B /* Build configuration list for PBXProject "RatingReminder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0496DAA617E0FE6600D4204B;
+			productRefGroup = 0496DAB017E0FE6600D4204B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0496DAAE17E0FE6600D4204B /* RatingReminder */,
+				0496DABE17E0FE6600D4204B /* RatingReminderTests */,
+				0496DADB17E1046300D4204B /* UniversalLib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0496DABD17E0FE6600D4204B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0496DACD17E0FE6600D4204B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0496DADF17E104E800D4204B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# define output folder environment variable\nUNIVERSAL_OUTPUTFOLDER=${BUILD_DIR}/${CONFIGURATION}-universal\n\n# Step 1. Build Device and Simulator versions\nxcodebuild -target RatingReminder ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphoneos  BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\"\nxcodebuild -target RatingReminder -configuration ${CONFIGURATION} -sdk iphonesimulator -arch i386 BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\"\n\n# make sure the output directory exists\nmkdir -p \"${UNIVERSAL_OUTPUTFOLDER}\"\n\n# Step 2. Create universal binary file using lipo\nlipo -create -output \"${UNIVERSAL_OUTPUTFOLDER}/lib${PROJECT_NAME}.a\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/lib${PROJECT_NAME}.a\" \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/lib${PROJECT_NAME}.a\"\n\n# Last touch. copy the header files. Just for convenience\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/include\" \"${UNIVERSAL_OUTPUTFOLDER}/\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0496DAAB17E0FE6600D4204B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0496DABA17E0FE6600D4204B /* RatingReminder.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0496DABB17E0FE6600D4204B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0496DACF17E0FE6600D4204B /* RatingReminderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0496DAC617E0FE6600D4204B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0496DAAE17E0FE6600D4204B /* RatingReminder */;
+			targetProxy = 0496DAC517E0FE6600D4204B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0496DACB17E0FE6600D4204B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0496DACC17E0FE6600D4204B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0496DAD017E0FE6600D4204B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0496DAD117E0FE6600D4204B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0496DAD317E0FE6600D4204B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/RatingReminder.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RatingReminder/RatingReminder-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		0496DAD417E0FE6600D4204B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/RatingReminder.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RatingReminder/RatingReminder-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		0496DAD617E0FE6600D4204B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RatingReminder/RatingReminder-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RatingReminderTests/RatingReminderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		0496DAD717E0FE6600D4204B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RatingReminder/RatingReminder-Prefix.pch";
+				INFOPLIST_FILE = "RatingReminderTests/RatingReminderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		0496DADD17E1046300D4204B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0496DADE17E1046300D4204B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0496DAAA17E0FE6600D4204B /* Build configuration list for PBXProject "RatingReminder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0496DAD017E0FE6600D4204B /* Debug */,
+				0496DAD117E0FE6600D4204B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0496DAD217E0FE6600D4204B /* Build configuration list for PBXNativeTarget "RatingReminder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0496DAD317E0FE6600D4204B /* Debug */,
+				0496DAD417E0FE6600D4204B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0496DAD517E0FE6600D4204B /* Build configuration list for PBXNativeTarget "RatingReminderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0496DAD617E0FE6600D4204B /* Debug */,
+				0496DAD717E0FE6600D4204B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0496DADC17E1046300D4204B /* Build configuration list for PBXAggregateTarget "UniversalLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0496DADD17E1046300D4204B /* Debug */,
+				0496DADE17E1046300D4204B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0496DAA717E0FE6600D4204B /* Project object */;
+}

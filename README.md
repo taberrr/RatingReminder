@@ -21,12 +21,10 @@ BSD 3-Clause, see the LICENSE file for the full license.
 
     - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
     {
-        // ...
-        
         RatingReminder *reminder = [RatingReminder sharedReminder];
         reminder.debug = YES; // debug mode causes the alert to appear every time the app is opened or focused
         reminder.appId = 12345678; // or whatever your AppId is
         [reminder appLaunched];
         
-        // ...
+        ...
     }

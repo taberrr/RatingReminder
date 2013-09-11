@@ -1,5 +1,4 @@
 # Xcode
-.DS_Store
 build/
 *.pbxuser
 !default.pbxuser
@@ -7,6 +6,8 @@ build/
 !default.mode1v3
 *.mode2v3
 !default.mode2v3
+*.perspective
+!default.perspective
 *.perspectivev3
 !default.perspectivev3
 *.xcworkspace
@@ -14,5 +15,14 @@ build/
 xcuserdata
 profile
 *.moved-aside
-DerivedData
-.idea/
+*.tar.gz
+
+.DS_Store
+.Trashes
+.fseventsd
+.Spotlight-V100
+._.Trashes
+*.swp
+*~.nib
+
+build/

@@ -17,14 +17,16 @@ BSD 3-Clause, see the LICENSE file for the full license.
 1. Drag RatingReminder.xcodeproj into your project
 2. Click your project and then your build target. Expand the "Target Dependencies" row. Add "UniversalLib (RatingReminder)" as a dependency.
 3. Expand the "Link Binary With Libraries" row and add the libRatingReminder.a library.
-4. Add the following code to your project's AppDelegate:
+4. Add the following code to your AppDelegate's `didFinishLaunchingWithOptions` method:
 
-    - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
-    {
-        RatingReminder *reminder = [RatingReminder sharedReminder];
-        reminder.debug = YES; // debug mode causes the alert to appear every time the app is opened or focused
-        reminder.appId = 12345678; // or whatever your AppId is
-        [reminder appLaunched];
-        
-        ...
-    }
+```objective-c
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
+    RatingReminder *reminder = [RatingReminder sharedReminder];
+    reminder.debug = YES; // debug mode causes the alert to appear every time the app is opened or focused
+    reminder.appId = 12345678; // or whatever your AppId is
+    [reminder appLaunched];
+    // etc.
+}
+```
+
